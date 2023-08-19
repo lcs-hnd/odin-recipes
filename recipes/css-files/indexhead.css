@@ -1,0 +1,22 @@
+.indexhead {
+    text-align: center;
+    font-family: 'Shipori Mincho', sans-serif;
+}
+
+.logo-style {
+display: block;
+margin: auto;
+}
+
+.ramen-bowl {
+    width: 100px;
+}
+
+.backstyle {
+    background-color: rgb(37, 124, 146);
+    background-image: url(../photos/kitchen-background.jpeg);
+}
+
+.banner {
+    background-color: white;
+}
