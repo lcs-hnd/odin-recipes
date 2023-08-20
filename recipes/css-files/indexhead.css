@@ -1,6 +1,9 @@
+body {
+    font-family: 'Shipori Mincho', sans-serif;
+}
 .indexhead {
     text-align: center;
-    font-family: 'Shipori Mincho', sans-serif;
+    margin-top: 2px;
 }
 
 .logo-style {
@@ -9,14 +12,35 @@ margin: auto;
 }
 
 .ramen-bowl {
-    width: 100px;
+    width: 70px;
+    margin-bottom: 2px;
 }
 
 .backstyle {
-    background-color: rgb(37, 124, 146);
+    background-color: rgb(4, 14, 16);
     background-image: url(../photos/kitchen-background.jpeg);
 }
 
 .banner {
-    background-color: white;
+    padding-top: 10px;
 }
+
+.featured {
+    margin-top: 1px;
+    display: flex;
+}
+
+.toast-poached {
+    width: 200px;
+    display: block;
+    margin: left;
+}
+.in-featured2 {
+    width: 252px;
+}
+
+.lined {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
