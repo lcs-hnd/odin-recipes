@@ -8,25 +8,44 @@
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Shippori+Mincho">
 </head>
 <body class="backstyle">
+
+    <!-- This is the top part with the shadowed logo along with the custom font for the name of the website.-->
     <div class="banner">
         <img class="logo-style ramen-bowl" src="./recipes/photos/ramen-shadow.png" alt="Bowl of ramen with chopsticks above it. 
         Noodles are twirled around the pair of choposticks.">
         <h1 class="indexhead">Odin Recipes</h1>
     </div>
+
+    <!-- Container for all of the three featured recipes within the website. They have to be staggered for the intedend aesthetic of the website. -->
     <div class="lined">
-        <div class="featured">
-            <img class="toast-poached" src="./recipes/photos/toast-poached-egg.png" alt="">
-            <div class="dish-info">
-                <h2>Poached Eggs and Toast</h2>
-                <div id="egg-description">
-                    This is a ts
+
+        <!-- Overall DIV for the first container that contains the toast and poached eggs. It manipulates -->
+        <div class="poached-container">
+            <!-- Custom manipulation of the image size within a class. Might change to an ID since the varying resolution of the images require separate adjustments.-->
+            <img id="egg" class="toast-poached" src="./recipes/photos/toast-poached-egg.png" alt="">
+            <div class="dish-info-poached">
+                <h2 class="poached-eggs-toast">Poached Eggs and Toast</h2>
+                <div id="egg" class="dish-description-eggs">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque perspiciatis exercitationem neque assumenda, nostrum beatae, aperiam delectus molestiae nobis deserunt vel? Tenetur repudiandae asperiores nobis nesciunt, voluptatibus qui beatae accusamus.
                 </div> 
             </div>
         </div>
-        <div>
-            <img class="in-featured2" src="./recipes/photos/grilled-chicken-salad.png" alt="">
+
+        <!-- Grilled chicken DIV. -->
+        <div class="chicken-container">
+            <div class="dish-info-chicken">
+                <h2 class="grilled-chicken-salad">Grilled Chicken Salad</h2>
+                <div class="dish-description-chicken">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque perspiciatis exercitationem neque assumenda, nostrum beatae, aperiam delectus molestiae nobis deserunt vel? Tenetur repudiandae asperiores nobis nesciunt, voluptatibus qui beatae accusamus.
+                </div> 
+            </div>
+            <img class="grilled-chicken-image" src="./recipes/photos/grilled-chicken-salad.png" alt="">
         </div>
+
+
+
     </div>
+    
     <h3>Featured Meal</h3>
     <br>
     <a href="recipes/float.html">Root Beer Float</a>
