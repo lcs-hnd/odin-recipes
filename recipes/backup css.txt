@@ -1,0 +1,113 @@
+// 
+
+css
+
+/* entire font used for the page atm */
+
+body {
+    font-family: 'Shipori Mincho', sans-serif;
+}
+
+/* logo control and image */
+
+.indexhead {
+    text-align: center;
+    margin-top: 2px;
+}
+
+.logo-style {
+display: block;
+margin: auto;
+}
+
+.ramen-bowl {
+    width: 70px;
+    margin-bottom: 2px;
+}
+
+/* background image */
+
+.backstyle {
+    background-image: url(../photos/kitchen-background.jpeg);
+}
+
+/* banner control, the logo and website title is the banner */
+
+.banner {
+    padding-top: 50px;
+}
+
+/* container control per dish, includes title, description, and image */
+
+.poached-container {
+    display: flex;
+}
+
+#egg {
+    align-items: center;
+    justify-content: center;
+}
+
+.chicken-container {
+    display: flex;
+    align-content: center;
+}
+
+/* dish images */
+
+.toast-poached {
+    width: 200px;
+    display: block;
+    margin-right: auto;
+}
+
+.grilled-chicken-image {
+    width: 252px;
+    display: block;
+    margin-left: auto;
+}
+
+/* overall div of all the dishes, controls the amount of space the containers are allowed to take up */
+
+.lined {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* dish descriptions */
+
+.dish-description-eggs {
+    padding: 5px;
+    background-color: rgba(215, 151, 41, 0.7);
+    border-radius: 10px;
+    margin-left: 15px;
+
+}
+
+.dish-description-chicken {
+    padding: 5px;
+    background-color: rgba(215, 151, 41, 0.7);
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+/* dish titles */
+
+.poached-eggs-toast {
+    margin-left: 12px;
+    margin-bottom: 2px;
+}
+
+.grilled-chicken-salad {
+    margin-left: 12px;
+    margin-bottom: 2px;
+}
+
+/* divs for just title and description and not the image */
+
+.dish-info-poached {
+}
+
+//
+
+
